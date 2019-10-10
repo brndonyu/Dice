@@ -67,19 +67,19 @@ class Die //models one single dice cube
 					ellipse(x+35,y+25,10,10);
 
 				}else if(dies[num] == 3){
-					ellipse(x+10,y+10,10,10);
+					ellipse(x+15,y+15,10,10);
 					ellipse(x+25,y+25,10,10);
-					ellipse(x+40,y+40,10,10);
+					ellipse(x+35,y+35,10,10);
 				}else if(dies[num] == 4){
 					ellipse(x+15,y+15,10,10);
 					ellipse(x+15,y+35,10,10);
 					ellipse(x+35,y+15,10,10);
 					ellipse(x+35,y+35,10,10);
 				}else if(dies[num] == 5){
-					ellipse(x+10,y+10,10,10);
-					ellipse(x+10,y+40,10,10);
-					ellipse(x+40,y+10,10,10);
-					ellipse(x+40,y+40,10,10);
+					ellipse(x+15,y+15,10,10);
+					ellipse(x+15,y+35,10,10);
+					ellipse(x+35,y+15,10,10);
+					ellipse(x+35,y+35,10,10);
 					ellipse(x+25,y+25,10,10);
 				}else if(dies[num] == 6){
 					ellipse(x+15,y+10,10,10);
