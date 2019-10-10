@@ -31,7 +31,7 @@ class Die //models one single dice cube
 	for(int y = 125; y <= 325; y += 100){
 		for(int x = 25; x <= 225; x += 100){
 		strokeWeight(2);
-		fill(#FFF3D6);
+		fill((float)(Math.random()*256),(float)(Math.random()*256),(float)(Math.random()*256));
 		dicey = y;
 		dicex = x;
 		rect(dicex,dicey,50,50,10,10,10,10);
@@ -58,7 +58,7 @@ class Die //models one single dice cube
 		//your code here
 		for(int y = 125; y <= 325; y += 100){
 			for(int x = 25; x <= 225; x += 100){
-				fill(0);
+				fill((float)(Math.random()*256),(float)(Math.random()*256),(float)(Math.random()*256));
 				if(dies[num] == 1){
 					ellipse(x+25,y+25,10,10);
 
